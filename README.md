@@ -1,3 +1,5 @@
+Data comes from John Hopkins University CSSE, through a JSON API provided by [mathdroid (github)](https://github.com/mathdroid/covid-19-api)
+
 ## Available Scripts
 
 In the project directory, you can run:
