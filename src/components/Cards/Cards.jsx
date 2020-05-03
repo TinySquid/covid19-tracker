@@ -32,6 +32,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                 end={confirmed.value}
                 duration={2.5}
                 separator=","
+                delay={0}
               />
             </Typography>
             <Typography color="textSecondary">
@@ -59,6 +60,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                 end={recovered.value}
                 duration={2.5}
                 separator=","
+                delay={0}
               />
             </Typography>
             <Typography color="textSecondary">
@@ -86,6 +88,7 @@ function Cards({ data: { confirmed, recovered, deaths, lastUpdate } }) {
                 end={deaths.value}
                 duration={2.5}
                 separator=","
+                delay={0}
               />
             </Typography>
             <Typography color="textSecondary">
