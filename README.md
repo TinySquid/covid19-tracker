@@ -1,4 +1,13 @@
-Data comes from John Hopkins University CSSE, through a JSON API provided by [mathdroid (github)](https://github.com/mathdroid/covid-19-api)
+## COVID19 - Stats Tracker
+
+![App Preview](/docs/img/app-image.png "App Preview Image")
+_Data comes from John Hopkins University CSSE, through a JSON API provided by [mathdroid (github)](https://github.com/mathdroid/covid-19-api)_
+
+## Features
+
+- Chart available in `Global` view.
+- Breakdown of stats (color coded).
+- Dropdown to select any country and see the data available by the API
 
 ## Available Scripts
 
