@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 // Components
 import { Cards, Chart, CountryPicker } from "./components";
 
+import { CircularProgress } from "@material-ui/core";
+
 // Styles
 import styles from "./App.module.css";
 
@@ -26,7 +28,12 @@ function App() {
     setCountry(country);
   };
 
-  if (!data) return <div>Loading...</div>;
+  if (!data)
+    return (
+      <div className={`${styles.container} ${styles.spinner}`}>
+        <CircularProgress />
+      </div>
+    );
 
   return (
     <div className={styles.container}>

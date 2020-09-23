@@ -8,3 +8,8 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
+.spinner {
+  /* w/ container flexbox this will make the spinner align on both axis */
+  min-height: 100vh;
+}
