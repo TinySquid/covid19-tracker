@@ -24,7 +24,7 @@ export const fetchData = async (country) => {
       lastUpdate,
     };
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };
 
@@ -41,7 +41,7 @@ export const fetchDailyData = async () => {
 
     return filteredData;
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };
 
@@ -54,6 +54,6 @@ export const fetchCountries = async () => {
 
     return countries.map((country) => country.name);
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 };

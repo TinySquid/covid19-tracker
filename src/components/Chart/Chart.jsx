@@ -20,7 +20,7 @@ function Chart(props) {
     getDailyData();
   }, []);
 
-  // Disable linechart on mobile and or when data isn't available
+  // Disable linechart on mobile and or when data isn't available yet
   const lineChart =
     dailyData.length && window.innerWidth > 500 ? (
       <Line
@@ -48,7 +48,7 @@ function Chart(props) {
 
   return (
     <div className={styles.container}>
-      {props.country ? <h3>No timeseries data for this country</h3> : lineChart}
+      {props.country ? <h3>Chart data not provided on a per-country basis (only works on Global view)</h3> : lineChart}
     </div>
   );
 }
