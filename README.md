@@ -3,15 +3,21 @@
 ![App Preview](/docs/img/app-image.png "App Preview Image")
 _Data comes from John Hopkins University CSSE, through a JSON API provided by [mathdroid (github)](https://github.com/mathdroid/covid-19-api)_
 
+## Deployed App
+
+[Click here to see the deployed app](https://covid19-numbers.netlify.app/)
+
 ## Features
 
 - Chart available in `Global` view.
 - Breakdown of stats (color coded).
 - Dropdown to select any country and see the data available by the API
 
-## Available Scripts
+## Deploy App Locally
 
-In the project directory, you can run:
+1. Clone this repo
+2. Use yarn or npm to install required packages
+3. Run one of the scripts below
 
 ### `yarn start`
 
@@ -35,3 +41,7 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Notes
+
+The public API sometimes goes down and I cannot host the backend personally because ZEIT doesn't allow more than 12 serverless functions on the free plan.
